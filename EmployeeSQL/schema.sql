@@ -2,8 +2,8 @@
 
 -- Create table departments
 CREATE TABLE departments (
-	dept_no VARCHAR(10), 
-	dept_name VARCHAR(30),
+	dept_no VARCHAR(10) NOT NULL, 
+	dept_name VARCHAR(30) NOT NULL,
 	 PRIMARY KEY (dept_no)
 );
 SELECT * FROM departments LIMIT 5;
